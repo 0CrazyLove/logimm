@@ -159,5 +159,12 @@ body {
 }
 .contenedor-login{
    margin: 0;
+   width: 80%;
+}
+#Blogi{
+    width: 100%;
+}
+.vista{
+    transform: translate(20px, -39px);
 }
 }
