@@ -1,0 +1,163 @@
+body {
+    background-image: url(img/wallhaven-eyzyko.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    
+}
+
+.contenedor-login {
+    margin-left: 450px;
+    margin-top: 100px;
+    font-size: 20px;
+    color: #e0e0e0;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+    border: 1px solid grey;
+    width: 350px;
+    height: 380px;
+    display: inline-block;
+    padding: 20px;
+    background: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.3);
+
+
+
+}
+
+.login {
+
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+
+
+}
+
+.linea1 {
+    width: 310px;
+    transform: translate(-20px, -9px);
+}
+
+.inputName {
+    background: none;
+    border: none;
+    cursor: context-menu;
+    outline: none;
+    width: 220px;
+    font-size: 20px;
+    color: grey;
+
+}
+
+.linea2 {
+    width: 310px;
+    transform: translate(-20px, -9px);
+
+}
+
+.select {
+
+    background: none;
+    border: none;
+    cursor: context-menu;
+    outline: none;
+    padding-right: 200px;
+    font-size: 20px;
+    color: grey;
+
+
+}
+
+.inputPass {
+
+    background: none;
+    cursor: context-menu;
+    border: none;
+    outline: none;
+    position: relative;
+    font-size: 20px;
+    transform: translate(0px, -50px);
+    color: grey;
+
+}
+
+.linea3 {
+    width: 310px;
+    transform: translate(-20px, -9px);
+}
+
+.vista {
+    position: relative;
+    width: 20px;
+    transform: translate(40px, -39px);
+
+
+}
+
+#Blogi {
+    margin-left: -10px;
+    margin-top: -30px;
+    border: none;
+    border-radius: 20px;
+    width: 370px;
+    height: 45px;
+    cursor: pointer;
+    background: grey;
+    color: #e0e0e0;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    font-size: 17px;
+
+
+}
+
+#Blogi:hover {
+    background-color: #5d5d5d;
+}
+
+#Blogi:active {
+    transform: scale(0.9);
+
+
+}
+
+#crear {
+    font-size: 15px;
+    filter: brightness(80%);
+}
+
+#crear2 {
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+#linkC {
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+ 
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 20px;
+        
+       
+}
+.contenedor-login{
+   margin: 0;
+}
+}
